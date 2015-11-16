@@ -1,4 +1,4 @@
-notes=new Meteor.Collection("notes");
+var notes=new Meteor.Collection("notes");
 Router.route('/add', function () {
   var req = this.request;
   var res = this.response;
